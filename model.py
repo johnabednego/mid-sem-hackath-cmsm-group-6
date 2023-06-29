@@ -46,6 +46,7 @@ plt.plot([1, 2, 3], [accuracy, precision, recall], 'o-')
 plt.xlabel('Metric')
 plt.ylabel('Score')
 plt.title('Model Performance')
+plt.show()
 
 # Plot the data and the model
 plt.scatter(y_test, y_pred, c='blue', alpha=0.5)
