@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 df = pd.read_json("data.json")
 
 # position + experience
-df['pos_exp'] = df['position'] + ' ' + df['Experience'] + ' ' + df['skills']
+df['pos_exp'] = df['position'] + ' ' + df['Experience']
 
 
 training_data, testing_data = train_test_split(df, random_state=0, test_size=0.2)
